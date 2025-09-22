@@ -28,7 +28,7 @@ We used the Lung Cancer Dataset from Kaggle. This dataset contains information o
 
 -Target Variable: Binary classification (e.g., 1 for cancer, 0 for no cancer).
 
--Source: [Kaggle Link (or your source URL)](https://www.kaggle.com/datasets/khwaishsaxena/lung-cancer-dataset).
+-Source: [Kaggle Link](https://www.kaggle.com/datasets/khwaishsaxena/lung-cancer-dataset).
 
 -License: CC BY-NC-SA 4.0.
 
