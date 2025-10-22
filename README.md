@@ -3,7 +3,7 @@
 # Overview
 This project is a group assignment for an AI & ML module, focused on building a machine learning model to predict lung cancer using a publicly available dataset. We preprocess the data using six key techniques: handling missing values, encoding categorical variables, scaling features, handling outliers, feature engineering, and handling duplicate values. Each preprocessing step includes Exploratory Data Analysis (EDA) visualizations to illustrate the impact on the dataset.
 
-The project is implemented in Python using Google Colaboratory (Colab). After preprocessing, we train and evaluate a machine learning model (e.g., logistic regression, random forest etc.). The goal is to demonstrate data preprocessing best practices and their role in improving model performance for healthcare-related predictions.
+The project is implemented in Python using Google Colaboratory (Colab). After preprocessing, we train and evaluate six machine learning models (Logistic Regression, Decision Tree Classifier, k-Nearest Neighbors (k-NN) Classifier, Random Forest Classifier, Naive Bayes Classifier and Support Vector Machine (SVM)). The goal is to demonstrate data preprocessing best practices and their role in improving model performance for prediction of survival rate of a lung cancer patient.
 
 
 Key objectives:
@@ -40,17 +40,17 @@ We used the Lung Cancer Dataset from Kaggle. This dataset contains information o
 # Group Member Roles
 Our team consists of 6 members, each responsible for one preprocessing technique. Contributions include implementing the technique in Python, creating EDA visualizations, and documenting the process in a dedicated Google Colab notebook section.
 
--Gunawardhana M.D.K   (IT24103005 ): Handling missing values (e.g., imputation using mean/median or dropping rows).
+-Gunawardhana M.D.K   (IT24103005 ): Handling missing values (e.g., imputation using mean/median or dropping rows) and training the Decision Tree Classifier.
 
--Abeysinghe J.H.C.M   (IT24103014  ): Encoding categorical variables (e.g., one-hot encoding or label encoding for features like gender or smoking status).
+-Abeysinghe J.H.C.M   (IT24103014  ): Encoding categorical variables (e.g., one-hot encoding or label encoding for features like gender or smoking status) and training Logistic Regression.
 
--Karunanayake K.M.C.N   (IT24103084 ): Scaling features (e.g., using StandardScaler or MinMaxScaler for numerical features).
+-Karunanayake K.M.C.N   (IT24103084 ): Scaling features (e.g., using StandardScaler or MinMaxScaler for numerical features) and training Naive Bayes Classifier.
 
--Ransith K.A.K   (IT24103049  ): Handling outliers (e.g., using IQR method or Z-score to detect and remove/cap outliers).
+-Ransith K.A.K   (IT24103049  ): Handling outliers (e.g., using IQR method or Z-score to detect and remove/cap outliers) and trainign k-Nearest Neighbors (k-NN) Classifier.
 
--Rajamanthree R.M.K.V   (IT24102935  ): Handling duplicate values (e.g., identifying and removing duplicates based on key columns).
+-Rajamanthree R.M.K.V   (IT24102935  ): Handling duplicate values (e.g., identifying and removing duplicates based on key columns) and training Random Forest Classifier.
 
--Ahangama A.V.D.S   (IT24102922 ): Feature Selection (e.g., Select a subset of the original features by using SelectKBest method).
+-Ahangama A.V.D.S   (IT24102922 ): Feature Selection (e.g., Select a subset of the original features by using SelectKBest method) and training Support Vector Machine (SVM).
 
 
 # Requirements
